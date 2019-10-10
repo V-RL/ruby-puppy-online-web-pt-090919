@@ -16,6 +16,7 @@ class Dog
   def self.print_all
    self.all.each {|person|
    puts "#{person.name}"
+   }
   end
     
   private 
